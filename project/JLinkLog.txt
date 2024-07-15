@@ -1,0 +1,90 @@
+T0DD8 000:215.497   SEGGER J-Link V6.84a Log File
+T0DD8 000:215.586   DLL Compiled: Sep  7 2020 17:26:08
+T0DD8 000:215.605   Logging started @ 2023-08-03 06:46
+T0DD8 000:215.609 - 215.611ms
+T0DD8 000:215.617 JLINK_SetWarnOutHandler(...)
+T0DD8 000:215.622 - 0.007ms
+T0DD8 000:215.628 JLINK_OpenEx(...)
+T0DD8 000:216.849   Firmware: J-Link V9 compiled Dec 13 2022 11:14:50
+T0DD8 000:217.014   Decompressing FW timestamp took 141 us
+T0DD8 000:222.451   Hardware: V9.20
+T0DD8 000:222.467   S/N: 25952337
+T0DD8 000:222.474   OEM: SEGGER
+T0DD8 000:222.482   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T0DD8 000:223.325   TELNET listener socket opened on port 19021
+T0DD8 000:223.610   WEBSRV Starting webserver
+T0DD8 000:223.785   WEBSRV Webserver running on local port 19080
+T0DD8 000:223.797 - 8.172ms returns "O.K."
+T0DD8 000:223.826 JLINK_GetEmuCaps()
+T0DD8 000:223.832 - 0.009ms returns 0xB9FF7BBF
+T0DD8 000:223.841 JLINK_TIF_GetAvailable(...)
+T0DD8 000:224.118 - 0.280ms
+T0DD8 000:224.128 JLINK_SetErrorOutHandler(...)
+T0DD8 000:224.133 - 0.008ms
+T0DD8 000:224.145 JLINK_ExecCommand("ProjectFile = "D:\»ãÓþ\³äµç×®\³äµç×®³ÌÐò\duichong\project413-20230625\project\JLinkSettings.ini"", ...). 
+T0DD8 000:234.680   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T0DD8 000:234.894   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T0DD8 000:235.754   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T0DD8 000:328.515   Device "ARM7" selected.
+T0DD8 000:328.837 - 104.697ms returns 0x00
+T0DD8 000:328.856 JLINK_ExecCommand("Device = STM32F413VGTx", ...). 
+T0DD8 000:328.980   Device "ARM7" selected.
+T0DD8 000:329.258 - 0.399ms returns 0x00
+T0DD8 000:329.272 JLINK_GetHardwareVersion()
+T0DD8 000:329.276 - 0.006ms returns 92000
+T0DD8 000:329.284 JLINK_GetDLLVersion()
+T0DD8 000:329.288 - 0.025ms returns 68401
+T0DD8 000:329.314 JLINK_GetOEMString(...)
+T0DD8 000:329.343 JLINK_GetFirmwareString(...)
+T0DD8 000:329.349 - 0.008ms
+T0DD8 000:329.358 JLINK_GetDLLVersion()
+T0DD8 000:329.364 - 0.008ms returns 68401
+T0DD8 000:329.371 JLINK_GetCompileDateTime()
+T0DD8 000:329.376 - 0.022ms
+T0DD8 000:329.399 JLINK_GetFirmwareString(...)
+T0DD8 000:329.404 - 0.007ms
+T0DD8 000:329.410 JLINK_GetHardwareVersion()
+T0DD8 000:329.415 - 0.007ms returns 92000
+T0DD8 000:329.422 JLINK_GetSN()
+T0DD8 000:329.427 - 0.007ms returns 25952337
+T0DD8 000:329.433 JLINK_GetOEMString(...)
+T0DD8 000:329.461 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0DD8 000:330.434 - 0.994ms returns 0x00
+T0DD8 000:330.462 JLINK_HasError()
+T0DD8 000:330.473 JLINK_SetSpeed(1000)
+T0DD8 000:330.689 - 0.237ms
+T0DD8 000:330.930 JLINK_HasError()
+T0DD8 000:330.939 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0DD8 000:330.943 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+T0DD8 000:330.948 JLINK_Reset()
+T0DD8 000:331.329   
+  ***** Error: 
+T0DD8 000:331.341   ARM7 is not supported via SWD
+T0DD8 000:393.284   
+  ***** Error: 
+T0DD8 000:393.301   ARM7 is not supported via SWD
+T0DD8 000:393.308 - 62.363ms
+T0DD8 000:393.414 JLINK_GetId()
+T0DD8 000:393.682   
+  ***** Error: 
+T0DD8 000:393.706   ARM7 is not supported via SWD
+T0DD8 000:456.124   
+  ***** Error: 
+T0DD8 000:456.138   ARM7 is not supported via SWD
+T0DD8 000:456.145 - 62.733ms returns 0x00000000
+T0DD8 000:456.254 JLINK_GetId()
+T0DD8 000:456.526   
+  ***** Error: 
+T0DD8 000:456.535   ARM7 is not supported via SWD
+T0DD8 000:518.962   
+  ***** Error: 
+T0DD8 000:518.977   ARM7 is not supported via SWD
+T0DD8 000:518.984 - 62.733ms returns 0x00000000
+T0DD8 000:526.619 JLINK_GetFirmwareString(...)
+T0DD8 000:526.634 - 0.018ms
+T49B8 010:994.177   
+  ***** Error: Connection to emulator lost!
+T0DD8 023:954.104 JLINK_Close()
+T0DD8 023:959.719 - 5.628ms
+T0DD8 023:959.736   
+T0DD8 023:959.741   Closed
